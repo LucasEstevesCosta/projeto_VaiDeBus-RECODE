@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vai de Bus | Home</title>
+</head>
+<body>
+    <table id="TABELA" align="center">
+        <tr id="CABECALHO">
+            <td><img src="img/cabecalho.png" alt="cabeçalho vai de bus"></td>
+        </tr>
+        
+        <tr id="MENU" align="center">
+            <td>
+                <a href="index.html"> HOME |</a>
+                <a href="modalidades.html"> MODALIDADES |</a>
+                <a href="fretamento.html"> FRETAMENTOS |</a>
+                <a href="vantagens.html"> VANTAGENS |</a>
+                <a href="contato.html"> CONTATO </a>
+            </td>
+        </tr>
+
+        <tr id="CONTEUDO">
+            <td>
+                <img src="img/barra1.png" alt="">
+                <br>
+                <form>
+                    <table align="center" style="padding: 20px; border: 2px solid; border-radius: 10px; border-color: slategray; background-color: whitesmoke;">
+                        <tr>
+                            <td colspan="2">
+                                <input type="radio" name="time"><label>Pessoa física</label>
+                                <input type="radio" name="time"><label>Pessoa Jurídica</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>CPF/CNPJ: </label></td> <td><input type="text" name="cpf/cnpj" placeholder="000.000.000-00" size="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Nome: </label></td> <td><input type="text" placeholder="Nome Completo" size="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label">e-mail: </label></td> <td><input type="email" name="email" placeholder="e-mail" id="email" size="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Fone: </label></td> <td><input type="text" placeholder="(00) 00000-0000" size="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Cidade: </label></td> <td><input type="text" placeholder="Cidade" size="100"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Assunto: </label></td>
+                            <td>
+                                <select name="assunto" id="assunto">
+                                    <option value="">Selecione uma opção</option>
+                                    <option value="sugestao">Sugestão</option>
+                                    <option value="reclamacao">Reclamacao</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Mensagem: </label></td>
+                            <td>
+                                <textarea name="mensagem" id="mensagem" cols="97" rows="10"></textarea><br>
+                                <input type="submit" value="Enviar"> <input type="reset" name="mensagem" value="Limpar">
+                            </td>
+                        </tr>
+            
+                    </table>
+                </form>
+                <br>
+                <img src="img/barra2.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" id="RODAPE">
+                <p>VAIDEBUS - Todos os direitos reservados. Rua Ipiranga, 123 | Sapiranga/RS | Fone: (051) 3670-0010</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
